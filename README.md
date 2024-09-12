@@ -16,8 +16,8 @@ pip install bangla_stemmer
 ```
 + using git
 ```
-git clone https://github.com/SaifurOWL/Bangla-stemmer-Usable-Variant-for-self
-cd Bangla-stemmer
+git clone https://github.com/SaifurOWL/Bangla-stemmer-Usable-Variant-for-self.git
+cd Bangla-stemmer-Usable_Variant-for-self
 python setup.py install
 ```
 
