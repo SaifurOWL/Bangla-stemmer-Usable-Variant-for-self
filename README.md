@@ -4,21 +4,21 @@
 &nbsp; is for one char space and
 &emsp; is for one tab space
 -->
-Bengali is one of the most morphologically rich languages and it has lots of inflectional and derivational variant forms of a word. Because of that it is quite complicated to determine the stem of word.
-
-Therefore our main focus was to program a light-weight library to determine a identical word for same type of inflected word as stem to run on any model.
+Orginal Authors main focus was to program a light-weight library to determine a identical word for same type of inflected word as stem to run on any model. Currently, generated stems efficacy for Data analysis and NLP tasks is yet to be determined.
 
 ## Installation
 >### Run the following  to install:
-+ using pip
-```
-pip install bangla_stemmer
-```
 + using git
 ```
 git clone https://github.com/SaifurOWL/Bangla-stemmer-Usable-Variant-for-self.git
-cd Bangla-stemmer-Usable_Variant-for-self
+cd Bangla-stemmer-Usable-Variant-for-self
 python setup.py install
+```
++ for colab (cloning to colabs own drive)
+```
+!git clone https://github.com/SaifurOWL/Bangla-stemmer-Usable-Variant-for-self.git
+%cd /content/Bangla-stemmer-Usable-Variant-for-self
+!python setup.py install
 ```
 
 ## Usages
